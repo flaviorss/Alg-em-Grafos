@@ -3,12 +3,14 @@
 #include <vector>
 
 using namespace std;
+enum Cor { BRANCO, CINZA, PRETO };
 
 class Grafo {
 public:
     int vertices;
     int arestas;
     vector<vector<int>> adj;
+    vector<int> cor;
 
     Grafo(int v, int a);
     void adicionaAresta(int u, int v);

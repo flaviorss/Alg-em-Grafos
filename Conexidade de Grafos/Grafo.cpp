@@ -4,6 +4,7 @@ Grafo::Grafo(int v, int a){
     vertices = v;
     arestas = a;
     adj.resize(v);
+    cor.resize(v, BRANCO);
 }
 
 void Grafo::adicionaAresta(int u, int v){
