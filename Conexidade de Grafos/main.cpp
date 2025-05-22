@@ -20,5 +20,11 @@ int main(){
 
     grafo.imprimiListaAdj();
 
+    if(grafo.ehConexo()){
+        cout << "Grafo conexo" << endl;
+    }else{
+        cout << "Grafo desconexo" << endl;
+    }
+
     return 0;
 }

@@ -15,5 +15,7 @@ public:
     Grafo(int v, int a);
     void adicionaAresta(int u, int v);
     void imprimiListaAdj();
+    bool ehConexo();
+    void dfs(int v);
 };
 
